@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'c2betapp',
 			'username'  => 'c2promosos',
-			'password'  => 'mavi1233',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
