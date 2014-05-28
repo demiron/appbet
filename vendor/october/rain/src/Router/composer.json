@@ -1,0 +1,28 @@
+{
+    "name": "october/router",
+    "description": "Basic URL Router",
+    "homepage": "http://octobercms.com",
+    "keywords": ["october cms", "october", "url", "uri", "router", "simple"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Bobkov",
+            "email": "aleksey.bobkov@gmail.com"
+        },
+        {
+            "name": "Samuel Georges",
+            "email": "daftspunky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "october/support": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "October\\Rain\\Router": ""
+        }
+    },
+    "target-dir": "October/Rain/Router",
+    "minimum-stability": "dev"
+}

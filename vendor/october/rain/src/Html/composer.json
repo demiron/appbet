@@ -1,0 +1,29 @@
+{
+    "name": "october/html",
+    "description": "Custom HTML service",
+    "homepage": "http://octobercms.com",
+    "keywords": ["october cms", "october", "html", "forms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Bobkov",
+            "email": "aleksey.bobkov@gmail.com"
+        },
+        {
+            "name": "Samuel Georges",
+            "email": "daftspunky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "october/support": "1.*",
+        "illuminate/html": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "October\\Rain\\Html": ""
+        }
+    },
+    "target-dir": "October/Rain/Html",
+    "minimum-stability": "dev"
+}

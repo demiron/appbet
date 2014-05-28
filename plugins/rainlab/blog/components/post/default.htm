@@ -1,0 +1,10 @@
+<div class="content">{{ blogPost.content_html|raw }}</div>
+
+<p class="info">
+    Posted
+    {% if blogPost.categories.count %} in {% endif %}
+    {% for category in blogPost.categories %}
+        <a href="{{ categoryPage|page({'slug': category.slug}) }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+    {% endfor %}
+    on {{ blogPost.published_at|date('M d, Y') }}
+</p>

@@ -1,0 +1,13 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Name
+        searchable: true
+    email:
+        label: Email
+        searchable: true
+    created_at:
+        label: Registered
